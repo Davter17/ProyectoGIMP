@@ -21,19 +21,35 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    font-size: 19pt;
+    margin-top: 21px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#headerUp p{
+#headerSearch {
     font-size: 19pt;
     margin-left: 22px;
-    margin-right: 19px;
 }
-
 
 #headerSearch input{
     width: 231px;
     height: 36px;
     border-radius: 5%;
+    background-image: url('img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#headerJoinUs {
+    font-size: 19pt;
+    margin-right: 19px;
+    display: flex;
+    align-items: center;
+}
+
+#headerJoinUs img{
+    margin-left: 9px;
 }
 
 #MainContainer{
