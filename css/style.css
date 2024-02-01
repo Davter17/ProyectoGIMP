@@ -288,6 +288,8 @@ footer {
     margin: 0 auto;
     position: absolute;
     */
+    display: flex;
+
 }
 footer hr {
     margin: 40px auto 30px auto;
@@ -313,16 +315,15 @@ footer nav a {
   
 }
 
-footer nav ul li:first-child a {color: red;}
+footer nav ul li:first-child a, footer nav ul li a:hover  {color: red;}
 
 footer nav ul li {
     margin: 20px auto;  
     justify-content: center;
 }
 
-.footernavliimg { 
-    margin: 20px 15px;
-}
+.footernavliimg {margin: 20px 15px;}
+
 .footercopy{
     color: #cbcbcb;
     text-align: center;
@@ -330,14 +331,22 @@ footer nav ul li {
     margin: 10px 0 30px 0;
 }
 
+.hueco {min-width: 120px;}
 
-.flechitatop {
+.footercentro {min-width: 960px;}
+
+.flechitatop{
     /*position: absolute;
     bottom: 10px;
     right: 10px;
     z-index: 1;
     */
-    width: 30px;
-    height: 30px;
-    background-color: blueviolet;
+    min-width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
+
+.flechitatop img {width: 30px; height: 30px;}
