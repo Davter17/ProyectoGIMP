@@ -5,6 +5,12 @@ body{
     justify-content: center;
     padding: 0;
     margin: 0;
+    background-image: url(./img/FondoBody.png);
+}
+
+@font-face {
+    font-family: Birch;
+    src: url(./fuentes/BirchStd.otf);
 }
 
 header{
@@ -54,17 +60,191 @@ header{
 
 #MainContainer{
     width: 1200px;
-    background-color: red;
     height: 1200px;
 }
 
 /*Ayada*/
-
+.pddp{
+    background-color: black;
+}
 
 
 /*Ronald*/
 
+.divwedo{
+    width: 1200px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
 
+.wedo{
+    font-family: Birch;
+    font-size: 120px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    color: #404040;
+    margin-left: 76px;
+    margin-right: 76px;
+    margin-top: 100px;
+}
+
+.mauris{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 138px;
+    margin-right: 132px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #828282;
+}
+
+.BotonSee {
+    font-family: Birch;
+    font-weight: 100;
+    border-radius: 10px;
+    border: 0;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    height: 60px;
+    width: 267px;
+    margin-top: 41px;
+    background-color: #af2330;
+    color: white;
+}
+
+.Coins{
+    display: block;
+    margin: auto;
+    width: 1200px;
+    margin-top: 60px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 430px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+.columna {
+    flex: 1;
+    margin: 20px;
+    margin-top: 0px;
+    /* border: 1px solid #b8b8b8; */
+}
+
+.TituloW{
+    font-family: Birch;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.Botonw{
+    background-color: #cdcdcd;
+    color: #404040;
+    border-radius: 10px;
+    width: 138px;
+    height: 41px;
+    font-family: Birch;
+    font-size: 18px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.TextoSub{
+    font-size: 16px;
+    color: black;
+    font-family: 'Times New Roman';
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.TextoP{
+    font-size: 16px;
+    color: #696868;
+    font-family: 'Times New Roman';
+    margin-right: 5px;
+    margin: 0;
+    margin-top: 13px;
+}
+
+.bocadillo{
+    background-image: url(./img/ourclient.png);
+    background-repeat: no-repeat;
+    width: 362px;
+    height: 262px;
+}
+
+.TextoP2{
+    font-size: 16px;
+    font-style: italic;
+    color: #696868;
+    font-family: 'Times New Roman';
+    margin-left: 42px;
+    margin-right: 35px;
+    padding-top: 37px;
+}
+
+.TextoP3{
+    font-size: 16px;
+    font-style: italic;
+    color: #696868;
+    font-family: 'Times New Roman';
+    margin-left: 42px;
+    margin-right: 16px;
+}
+
+.TextoP4{
+    font-size: 16px;
+    color: #696868;
+    font-family: 'Times New Roman';
+    margin-top: 13px;
+    margin-right: 26px;
+    margin-bottom: 0px;
+}
+
+.TextoSub2{
+    font-size: 16px;
+    color: #af2330;
+    font-family: 'Times New Roman';
+    margin-right: 25px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.csb{
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0;
+}
+
+.Brad{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: #404040;
+    padding: 0;
+    margin: 0;
+    margin-left: 245px;
+    text-align: right;
+}
+
+.Company{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: #696868;
+    padding: 0;
+    margin: 0;
+    margin-left: 251px;
+    text-align: right;
+}
 
 /*Raquel*/
 /*articles*/
