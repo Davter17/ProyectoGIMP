@@ -227,6 +227,10 @@ margin-left: 300px;
 .plan{
     position: relative;
 }
+@font-face {
+    font-family: Birch;
+    src: url(/ProyectoGIMP-main/fuentes/BirchStd.otf);
+}
 .titulo1{
   position: absolute;
   font-family: 'Birch';
@@ -234,7 +238,7 @@ margin-left: 300px;
   margin-bottom: 22px;
   margin-left: 100px;
   margin-right: 1000px;
-  font-size: 23px;
+  font-size: 44px;
   
 }
 .texto1{
@@ -254,7 +258,7 @@ margin-left: 300px;
     margin-bottom: 22px;
     margin-left: 416px;
     margin-right: 716px;
-    font-size: 23px; 
+    font-size: 44px;
   }
   .texto2{
       position: absolute;
@@ -273,7 +277,7 @@ margin-left: 300px;
     margin-bottom: 22px;
     margin-left: 677px;
     margin-right: 376px;
-    font-size: 23px; 
+    font-size: 44px; 
   }
   .texto3{
       position: absolute;
@@ -292,7 +296,7 @@ margin-left: 300px;
     margin-bottom: 22px;
     margin-left: 994px;
     margin-right: 94px;
-    font-size: 23px; 
+    font-size: 44px;
   }
   .texto4{
       position: absolute;
