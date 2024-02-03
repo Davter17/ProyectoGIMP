@@ -22,7 +22,6 @@ header {
   padding: 0px;
   width: 100%;
   height: 189px;
-  /*background-color: yellow;*/
 }
 
 #headerUp {
@@ -146,13 +145,15 @@ header {
 
 #MainContainer {
   width: 1200px;
-  height: 1200px;
+  height: 1800px;
 }
 
 /*Ayada*/
 #planning {
+  position: relative;
   height: 367px;
   margin-bottom: 44px;
+  top: -617px;
 }
 .imagenes {
   margin-top: 719px;
@@ -320,14 +321,14 @@ header {
   font-family: "Birch";
   margin-top: 116px;
   margin-bottom: 22px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-right: 1000px;
-  font-size: 44px;
+  font-size: 40px;
 }
 .texto1 {
   position: absolute;
   margin-top: 169px;
-  margin-left: 24px;
+  margin-left: 26px;
   margin-right: 927px;
   text-align: center;
   font-size: 20px;
@@ -337,11 +338,12 @@ header {
 .titulo2 {
   position: absolute;
   font-family: "Birch";
+  text-align: center;
   margin-top: 116px;
   margin-bottom: 22px;
-  margin-left: 416px;
+  margin-left: 385px;
   margin-right: 716px;
-  font-size: 44px;
+  font-size: 40px;
 }
 .texto2 {
   position: absolute;
@@ -358,9 +360,9 @@ header {
   font-family: "Birch";
   margin-top: 116px;
   margin-bottom: 22px;
-  margin-left: 677px;
+  margin-left: 605px;
   margin-right: 376px;
-  font-size: 44px;
+  font-size: 40px;
 }
 .texto3 {
   position: absolute;
@@ -373,14 +375,14 @@ header {
   font-style: italic;
 }
 .titulo4 {
-  position: absolute;
-  font-family: "Birch";
-  margin-top: 116px;
-  margin-bottom: 22px;
-  margin-left: 994px;
-  margin-right: 94px;
-  font-size: 44px;
-}
+    position: absolute;
+    font-family: "Birch";
+    margin-top: 116px;
+    margin-left: 920px;
+    margin-bottom: 22px;
+    margin-right: 94px;
+    font-size: 40px;
+  }
 .texto4 {
   position: absolute;
   margin-top: 169px;
@@ -403,7 +405,7 @@ header {
 
 .wedo {
   font-family: Birch;
-  font-size: 140px;
+  font-size: 120px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -449,12 +451,14 @@ header {
 }
 
 .contenedor {
+  position: relative;
+  top: -620px;
   display: flex;
   justify-content: space-between;
   width: 1200px;
   height: 430px;
-  background-color: #f6f6f6;
   border-radius: 10px;
+  background-color: white;
 }
 .columna {
   flex: 1;
@@ -573,6 +577,8 @@ header {
 /*articles*/
 
 .latetstarticles {
+  position: relative;
+  top: -620px;
   background-color: #404040;
   color: #fff;
   display: flex;
@@ -603,14 +609,15 @@ header {
 
 /* Footer*/
 
-footer {
-  background-color: #eee;
+footer {    
   /*
     z-index: 5;
     width: 80%;
     margin: 0 auto;
     position: absolute;
     */
+  position: relative;
+  top: -620px;
   display: flex;
 }
 footer hr {
