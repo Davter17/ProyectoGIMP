@@ -145,7 +145,7 @@ header {
 
 #MainContainer {
   width: 1200px;
-  height: 1800px;
+  height: 2220px;
 }
 
 /*Ayada*/
@@ -619,6 +619,7 @@ footer {
   position: relative;
   top: -620px;
   display: flex;
+  height: 140px;
 }
 footer hr {
   margin: 40px auto 30px auto;
@@ -677,6 +678,8 @@ footer nav ul li {
     right: 10px;
     z-index: 1;
     */
+  position: relative;
+  top: -40px;
   min-width: 120px;
   display: flex;
   justify-content: flex-end;
