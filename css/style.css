@@ -13,7 +13,7 @@ body {
 
 @font-face {
   font-family: Birch;
-  src: url(./fuentes/BirchStd.otf);
+  src: url(../fuentes/BirchStd.otf);
 }
 
 header {
@@ -119,7 +119,7 @@ header {
 
 #navbar nav ul li a {
   font-family: Birch;
-  font-size: 20px;
+  font-size: 28px;
   text-decoration: none;
   color: #000;
 }
@@ -145,7 +145,7 @@ header {
 
 #MainContainer {
   width: 1200px;
-  height: 2220px;
+  height: 2095px;
 }
 
 /*Ayada*/
@@ -321,7 +321,7 @@ header {
   font-family: "Birch";
   margin-top: 116px;
   margin-bottom: 22px;
-  margin-left: 50px;
+  margin-left: 105px;
   margin-right: 1000px;
   font-size: 40px;
 }
@@ -341,7 +341,7 @@ header {
   text-align: center;
   margin-top: 116px;
   margin-bottom: 22px;
-  margin-left: 385px;
+  margin-left: 415px;
   margin-right: 716px;
   font-size: 40px;
 }
@@ -360,7 +360,7 @@ header {
   font-family: "Birch";
   margin-top: 116px;
   margin-bottom: 22px;
-  margin-left: 605px;
+  margin-left: 675px;
   margin-right: 376px;
   font-size: 40px;
 }
@@ -378,7 +378,7 @@ header {
     position: absolute;
     font-family: "Birch";
     margin-top: 116px;
-    margin-left: 920px;
+    margin-left: 995px;
     margin-bottom: 22px;
     margin-right: 94px;
     font-size: 40px;
@@ -398,7 +398,7 @@ header {
 
 .divwedo {
   width: 1200px;
-  height: 500px;
+  height: 360px;
   margin: 0;
   padding: 0;
 }
@@ -503,7 +503,7 @@ header {
 }
 
 .bocadillo {
-  background-image: url(./img/ourclient.png);
+  background-image: url(../img/ourclient.png);
   background-repeat: no-repeat;
   width: 362px;
   height: 262px;
